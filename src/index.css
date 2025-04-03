@@ -1,7 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @import "tailwindcss";
 
 body {
   background-color: #F9F8F4;
+  font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+
 }
+
+.text-style {
+  font-family: "Instrument Serif", "Instrument Serif Placeholder";
+}
+
