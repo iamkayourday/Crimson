@@ -1,5 +1,5 @@
 import React from "react";
-import WinemakingProcess from "./WinemakingProgress";
+import Winemaking from "./WineMaking";
 
 const Heritage = () => {
   return (
@@ -20,7 +20,7 @@ const Heritage = () => {
           The journey from Vineto <br /> Bottle
         </h2>
       </div>
-      <WinemakingProcess />
+      <Winemaking />
     </section>
   );
 };

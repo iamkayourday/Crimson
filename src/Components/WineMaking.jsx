@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const WinemakingProcess = () => {
+const Winemaking = () => {
   const processSteps = [
     {
       title: "Terroir",
@@ -70,4 +70,4 @@ const WinemakingProcess = () => {
   );
 };
 
-export default WinemakingProcess;
+export default Winemaking;
