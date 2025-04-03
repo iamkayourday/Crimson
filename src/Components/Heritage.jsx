@@ -2,7 +2,12 @@ import React from 'react'
 
 const Heritage = () => {
   return (
-    <div>Heritage</div>
+    <>
+    <section id="heritage" >
+
+    </section>
+    
+    </>
   )
 }
 

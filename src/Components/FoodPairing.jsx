@@ -2,7 +2,12 @@ import React from 'react'
 
 const FoodPairing = () => {
   return (
-    <div>FoodPairing</div>
+    <>
+    <section id="food-pairings" >
+
+    </section>
+    
+    </>
   )
 }
 

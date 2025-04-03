@@ -53,6 +53,7 @@ const Navbar = () => {
   };
 
   const navItems = [
+    {to:"hero", text:"Home"},
     { to: "our-wine", text: "Our wines" },
     { to: "vineyards", text: "Vineyard" },
     { to: "food-pairings", text: "Food Parings" },
@@ -85,8 +86,8 @@ const Navbar = () => {
         transition={{ duration: 0.5 }}
         className={`fixed top-0 left-0 w-full backdrop-blur-md z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white/90 border-b border-white/10 shadow-lg"
-            : "bg-white/95"
+            ? "bg-white/30 border-b border-white/10 shadow-lg"
+            : "bg-white/20"
         }`}
       >
         <div className="max-w-8xl mx-auto px-5 sm:px-6 lg:px-8 flex justify-between items-center h-16 md:h-20">

@@ -2,7 +2,15 @@ import React from 'react'
 
 const OurWine = () => {
   return (
-    <div>OurWine</div>
+    <>
+    <section id="our-wine" className='max-w-7xl mx-auto m-h-screen h-96' >
+      <div>
+        see me
+      </div>
+
+    </section>
+    
+    </>
   )
 }
 
