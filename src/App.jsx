@@ -5,6 +5,7 @@ import OurWine from './Components/OurWine'
 import FoodPairing from './Components/FoodPairing'
 import Heritage from './Components/Heritage'
 import Footer from './Components/Footer'
+import Contact from './Components/Contact'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <OurWine />
       <FoodPairing />
       <Heritage />
+      <Contact />
       <Footer />
     </div>
   )
